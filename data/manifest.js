@@ -1,0 +1,1 @@
+window.THPT_MANIFEST=[{"id":"2025-01-01-environment","topic":"Môi trường","title":"Environment – Day 1","date":"2025-01-01","words":["sustainable","pollution","conserve","endangered","greenhouse"]},{"id":"2025-01-02-education","topic":"Giáo dục","title":"Education – Day 2","date":"2025-01-02","words":["curriculum","compulsory","scholarship","tuition","graduate"]}];

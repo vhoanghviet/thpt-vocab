@@ -1,0 +1,9 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>THPT Vocab</title><link rel="stylesheet" href="css/style.css"></head><body><header class="top"><a class="brand" href="./">📒 THPT Vocab</a><a href="./">← Trang chủ</a></header><main class="wrap narrow"><div id="empty" class="panel" hidden><p>Chưa có từ nào để học ở đây.</p><a class="btn" href="./">← Về trang chủ</a></div>
+<div id="app" hidden><h1 id="title"></h1><div class="toolbar"><select id="dir"><option value="en">Anh → Việt</option><option value="vi">Việt → Anh</option></select>
+<label><input type="checkbox" id="shuf" checked> Xáo trộn</label><label><input type="checkbox" id="only"> Chỉ từ chưa thuộc</label><label><input type="checkbox" id="auto" checked> Tự đọc</label><button class="btn ghost" id="restart">↻</button></div>
+<div class="progress"><div id="bar"></div></div><p class="mut center" id="counter"></p>
+<div id="study"><div class="card" id="card"><div class="inner"><div class="face front" id="front"></div><div class="face back" id="back"></div></div></div>
+<div class="center"><button class="btn ghost" id="speak">🔊 Nghe</button></div><div class="actions"><button class="btn bad" id="no">✗ Chưa thuộc</button><button class="btn good" id="yes">✓ Đã thuộc</button></div></div>
+<div id="result" class="panel" hidden><h2>Hoàn thành 🎉</h2><p id="summary"></p><div class="actions"><button class="btn bad" id="missBtn">Ôn từ chưa thuộc</button><button class="btn" id="again">Học lại</button></div></div>
+<p class="mut center small"><kbd>Space</kbd> lật · <kbd>←</kbd> chưa thuộc · <kbd>→</kbd> đã thuộc · <kbd>Ctrl</kbd>/<kbd>S</kbd> nghe · <kbd>L</kbd> đổi chiều · <kbd>Space</kbd>×2 ôn từ sai</p></div></main>
+<script src="js/config.js"></script><script src="data/manifest.js"></script><script src="js/core.js"></script><script src="js/study.js"></script></body></html>
